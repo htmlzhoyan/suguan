@@ -1,0 +1,265 @@
+/* 基础样式 */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, blockquote, td {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100%;
+    line-height: 1.15;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Source Han Sans CN", "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    background: #f4F4F4;
+    font-weight: normal;
+    color: #333;
+}
+img{box-sizing: border-box; vertical-align: middle;  border: 0; }
+
+/* Links ========================================================================== */
+
+a {
+    background-color: transparent;
+    color: #333;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+/* Text-level semantics ========================================================================== */
+
+ins, a {
+    text-decoration: none;
+}
+
+abbr[title] {
+    border-bottom: 1Px dotted;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+button {
+    background: transparent;
+    border: 0 none;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: none;
+}
+
+.pgr10 {
+    padding-right: 10px;
+}
+
+.pgl10 {
+    padding-left: 10px;
+}
+
+.mgt40 {
+    margin-top: 40Px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* media */
+
+html {
+    font-size: 41.6667Px;
+}
+
+@media screen and (min-width: 320Px) {
+    html {
+        font-size: 41.6667Px
+    }
+    body {
+        font-size: 12Px
+    }
+}
+
+@media screen and (min-width: 360Px) {
+    html {
+        font-size: 46.875Px
+    }
+    body {
+        font-size: 12Px
+    }
+}
+
+@media screen and (min-width: 375Px) {
+    html {
+        font-size: 48.828Px
+    }
+    body {
+        font-size: 14Px
+    }
+}
+
+@media screen and (min-width: 384Px) {
+    html {
+        font-size: 50Px
+    }
+    body {
+        font-size: 14Px
+    }
+}
+
+@media screen and (min-width: 400Px) {
+    html {
+        font-size: 52.0833Px
+    }
+    body {
+        font-size: 14Px
+    }
+}
+
+@media screen and (min-width: 414Px) {
+    html {
+        font-size: 53.9063Px
+    }
+    body {
+        font-size: 14Px
+    }
+}
+
+@media screen and (min-width: 424Px) {
+    html {
+        font-size: 55.2083Px
+    }
+    body {
+        font-size: 14Px
+    }
+}
+
+@media screen and (min-width: 480Px) {
+    html {
+        font-size: 62.5Px
+    }
+    body {
+        font-size: 15.36Px
+    }
+}
+
+@media screen and (min-width: 540Px) {
+    html {
+        font-size: 70.3125Px
+    }
+    body {
+        font-size: 17.28Px
+    }
+}
+
+@media screen and (min-width: 720Px) {
+    html {
+        font-size: 93.75Px
+    }
+    body {
+        font-size: 23.04Px
+    }
+}
+
+@media screen and (min-width: 750Px) {
+    html {
+        font-size: 97.6563Px
+    }
+    body {
+        font-size: 24Px
+    }
+}
+
+@media screen and (width: 768Px) {
+    html {
+        font-size: 100Px
+    }
+    body {
+        font-size: 24Px
+    }
+}
+
+@media screen and (min-width: 769Px) {
+    html {
+        font-size: 50Px
+    }
+    body {
+        font-size: 14Px
+    }
+    .fixed-bottom {
+        position: fixed !important;
+        bottom: 0;
+        max-width: 768Px;
+        width: 100%;
+        left: auto;
+        margin-left: auto;
+    }
+}
+
+.mint-loadmore-bottom div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.mint-loadmore-top div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.mint-loadmore-top span {
+    transition: .2s linear;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mint-loadmore-bottom span {
+    display: inline-block;
+    transition: .2s linear;
+    vertical-align: middle;
+}
+
+.mint-loadmore-top span.is-rotate {
+    transform: rotate(180deg)
+}
+
+.mint-loadmore-bottom span.is-rotate {
+    transform: rotate(180deg)
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
